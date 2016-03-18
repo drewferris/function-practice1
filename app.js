@@ -25,13 +25,15 @@ function sumArray(newArray){
     sumOfArray += currentNum;
   }
   console.log(newArray + ' was passed in as an array of numbers, and ' + sumOfArray + ' is their sum.');
+  return sumOfArray;
 }
 
 function multiplyArray(newArray1){
-  var productOfArray = 1;
+  var productofArray = 1;
   for (var i = 0; i < newArray1.length; i++){
     currentNum1 = newArray1[i];
-    productOfArray *= currentNum1;
+    productofArray *= currentNum1;
   }
-  console.log('The numbers ' + newArray1 + ' have a product of ' + productOfArray + '.');
+  console.log('The numbers ' + newArray1 + ' have a product of ' + productofArray + '.');
+  return productofArray;
 }
