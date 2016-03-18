@@ -26,3 +26,12 @@ function sumArray(newArray){
   }
   console.log(newArray + ' was passed in as an array of numbers, and ' + sumOfArray + ' is their sum.');
 }
+
+function multiplyArray(newArray1){
+  var productOfArray = 1;
+  for (var i = 0; i < newArray1.length; i++){
+    currentNum1 = newArray1[i];
+    productOfArray *= currentNum1;
+  }
+  console.log('The numbers ' + newArray1 + ' have a product of ' + productOfArray + '.');
+}
